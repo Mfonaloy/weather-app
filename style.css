@@ -1,0 +1,55 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
+    border: 1px solid;
+  padding: 20px;
+  margin: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 28px;
+  margin: auto;
+  margin-top: 30px; 
+  }
+  h1{
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  padding: 20px;
+  }
+  h2{
+  top: 20px;
+  font-size: 25px;
+  }
+  
+  h3 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 40px;
+  }
+  
+  button {
+  border-radius: 10px;
+  border-color: salmon;
+  background-color: white;
+  }
+  
+  button:hover {
+  background-color: pink;
+  }
+  .weather-app {
+    position: relative;
+    border: solid;
+    border-color: brown;
+    margin: 2px;
+    width: 390px;
+    padding: 10px;
+    background-color: lavenderblush;
+  }
+  
+  .units {
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+  }
