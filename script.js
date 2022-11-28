@@ -41,6 +41,7 @@ function formatDate(date) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
   }
@@ -83,6 +84,7 @@ function formatDate(date) {
     let temperatureElement = document.querySelector("#temperature");
     temperatureElement.innerHTML = 19;
   }
+  
   let currentLocationButton = document.querySelector("#current-location-button");
   currentLocationButton.addEventListener("click", getCurrentLocation);
   
