@@ -3,7 +3,7 @@ body{
     font-weight: bold;
     background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
     border: 1px solid;
-  padding: 20px;
+  padding: 30px;
   margin: 30px;
   max-width: 600px;
   border-radius: 10px;
@@ -51,5 +51,5 @@ body{
   .units {
   font-size: 20px;
   position: relative;
-  top: -30px;
+
   }
