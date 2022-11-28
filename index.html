@@ -26,39 +26,35 @@
 <body>
     <div class="container">
         <div class="weather-app">
-          <h1>☁️Weather App☁️</h1>
-    
-          <span class="temperature" id="temperature"><i class="fa-solid fa-cloud-sun"> 28°C </i> </span>
-              <h2 class="card-title" id="city"> Abuja,NG</h2>
-                <p class="day" id="date"> </p>
-                
-                
+          <h1 class="card-title" id="city"> Abuja,NG</h1>
+          <ul>
+          <div id="date"></div>
+           <div id="description"></div>
+          </ul>
+          
+              <div class="float-left">
+                <span class="temperature" id="temperature"></span
+                ><span class="units">°C</span>
+              </div>
+               <br />
         </div>
+        
         <br />
         <form class="search-form" id="search-form">
             <input type="text" placeholder="Enter a City here"
              autofocus="on" autocomplete="off" id="city-input" />
     
     <button type="search" value="submit" class="btn btn-warning"> Search </button>
-    <button id="current-location-button" type="current-location-button" class="btn btn-warning"> Current location</button>
-    
-    
-    </form>
+    <button id="current-location-button" type="current-location-button" class="btn btn-warning"> Current location </button>
+     </form>
+
     <br />
-    
-    <h3>
-    <span class="description"><i class="fa-solid fa-cloud-sun-rain"></i>Sunny</span>
-    <span class="units">
-       <a href="#" id="celsius-link">ºC </a> |
-      <a href="#" id="fahrenheit-link" >ºF</a>
-    </span>
-    </h3>
     
       <div class="col-4"> 
     
-        <li>Precipitation:<span id="precipitaion"></span><i class="fa-solid fa-cloud-rain"> 50% </i></li>
-        <li>Humidity:<span id="humidity"></span><i class="fa-solid fa-cloud-bolt"> 75% </i></li>
-        <li>Wind:<span id="wind"></span> <i class="fa-solid fa-wind"> 0km/h </i> 
+        <li>Precipitation:<span id="precipitaion"></span><i class="fa-solid fa-cloud-rain">%</i></li>
+        <li>Humidity:<span id="humidity"></span><i class="fa-solid fa-cloud-bolt">%</i></li>
+        <li>Wind:<span id="wind"></span> <i class="fa-solid fa-wind">km/h</i> 
         </li>
       </div>
      <h2> Daily Forecasts  </h2>
@@ -109,6 +105,12 @@
     </div>
     
       </div>
+
+      <small>
+        open-source code by,
+        <a href="https://github.com/Mfonaloy/weather-app">by Mfonaloy</a>
+    </small>
+    
     <script src="script.js"></script>
 </body>
 </html>
